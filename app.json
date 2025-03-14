@@ -1,0 +1,23 @@
+
+{
+    "name": "Mvelase Session Generator",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/8ub6ps.png,
+    "repository": "https://github.com/mvelase-ofc/mvelase-pair-code2",
+    "keywords": ["Malvin-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
